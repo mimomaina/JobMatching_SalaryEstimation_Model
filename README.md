@@ -41,7 +41,7 @@ It's columns include:
 1. Job Id: A unique identifier for each job posting.
 2. Experience: The required or preferred years of experience for the job.
      
-   3.Qualifications: The educational qualifications needed for the job.
+ 3.Qualifications: The educational qualifications needed for the job.
   
 4. Salary Range: The range of salaries or compensation offered for the position.
      
