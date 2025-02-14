@@ -38,12 +38,12 @@ Link:https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset
 
 
 It's columns include:
-   1. Job Id: A unique identifier for each job posting.
-   2. Experience: The required or preferred years of experience for the job.
+  1. Job Id: A unique identifier for each job posting.
+  2. Experience: The required or preferred years of experience for the job.
      
    3.Qualifications: The educational qualifications needed for the job.
   
-   4. Salary Range: The range of salaries or compensation offered for the position.
+  4. Salary Range: The range of salaries or compensation offered for the position.
      
   5.Location: The city or area where the job is located.
   
@@ -87,11 +87,11 @@ It's columns include:
 Methodology
 1. Data Preprocessing
  
-Handling Missing Values: Drop missing values in Company Profile
+a.Handling Missing Values: Drop missing values in Company Profile
 
-Feature Encoding: Convert categorical data (e.g., experience level, job type) into numerical format
+b.Feature Encoding: Convert categorical data (e.g., experience level, job type) into numerical format
 
-Feature Scaling: Standardize salary data and Company Size.
+c.Feature Scaling: Standardize salary data and Company Size.
 
 2. Model Development
  
@@ -105,7 +105,7 @@ Feature Scaling: Standardize salary data and Company Size.
   
   b.Job Matching Evaluation: Accuracy, F1-score
 
-Deployment Plan – Streamlit App
+4.Deployment Plan – Streamlit App
 
 The project will be deployed as an interactive Streamlit web application where users can enter their details and receive:
 
