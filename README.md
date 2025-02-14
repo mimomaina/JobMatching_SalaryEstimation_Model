@@ -12,13 +12,19 @@ Objectives
 Users will input:
 
 Country & City (for localized salary estimates)
+
 Experience Level (Entry, Mid, Senior)
+
 Qualifications (Diploma, Bachelor's, Master's, etc.)
+
 Skills (Python, SQL, Cloud, etc.)
+
 The model will then output:
 
 The best-matching job title
+
 The predicted salary range
+
 The automation risk associated with the role
 
 Dataset
@@ -35,7 +41,7 @@ It's columns include:
   1. Job Id: A unique identifier for each job posting.
   2. Experience: The required or preferred years of experience for the job.
      
-  3.Qualifications: The educational qualifications needed for the job.
+   3.Qualifications: The educational qualifications needed for the job.
   
   4. Salary Range: The range of salaries or compensation offered for the position.
      
