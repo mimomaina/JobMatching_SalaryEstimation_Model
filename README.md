@@ -11,21 +11,21 @@ Objectives
 
 Users will input:
 
-Country & City (for localized salary estimates)
+  1.Country & City (for localized salary estimates)
 
-Experience Level (Entry, Mid, Senior)
+  2.Experience Level (Entry, Mid, Senior)
 
-Qualifications (Diploma, Bachelor's, Master's, etc.)
+  3.Qualifications (Diploma, Bachelor's, Master's, etc.)
 
-Skills (Python, SQL, Cloud, etc.)
+  4.Skills (Python, SQL, Cloud, etc.)
 
 The model will then output:
 
-The best-matching job title
+  1.The best-matching job title
 
-The predicted salary range
+  2.The predicted salary range
 
-The automation risk associated with the role
+  3.The automation risk associated with the role
 
 Dataset
 
@@ -38,12 +38,12 @@ Link:https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset
 
 
 It's columns include:
-  1. Job Id: A unique identifier for each job posting.
-  2. Experience: The required or preferred years of experience for the job.
+   1. Job Id: A unique identifier for each job posting.
+   2. Experience: The required or preferred years of experience for the job.
      
    3.Qualifications: The educational qualifications needed for the job.
   
-  4. Salary Range: The range of salaries or compensation offered for the position.
+   4. Salary Range: The range of salaries or compensation offered for the position.
      
   5.Location: The city or area where the job is located.
   
