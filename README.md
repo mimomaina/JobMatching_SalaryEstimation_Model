@@ -86,22 +86,27 @@ It's columns include:
 
 Methodology
 1. Data Preprocessing
-2. 
+ 
 Handling Missing Values: Drop missing values in Company Profile
 
 Feature Encoding: Convert categorical data (e.g., experience level, job type) into numerical format
 
 Feature Scaling: Standardize salary data and Company Size.
 
-4. Model Development
+2. Model Development
+ 
   a.Salary Prediction-XGBoost Regressor/Random Forest Regressor
+
   b.Job Matching - Random Forest Classifier/XGBoost Classifier
 
-5. Model Evaluation
+3. Model Evaluation
+   
   a.Salary Prediction Evaluation: MAE (Mean Absolute Error), RMSE (Root Mean Squared Error)
+  
   b.Job Matching Evaluation: Accuracy, F1-score
 
 Deployment Plan – Streamlit App
+
 The project will be deployed as an interactive Streamlit web application where users can enter their details and receive:
 
   1.A recommended job title
